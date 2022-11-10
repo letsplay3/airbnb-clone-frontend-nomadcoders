@@ -16,10 +16,10 @@ export default function KakaoConfirm() {
       const status = await kakaoLogin(code);
       if (status === 200) {
         toast({
-          status: "success",
+          status: "성공 success",
           title: "Welcome!",
           position: "bottom-right",
-          description: "Happy to have you back!",
+          description: "환영합니다. Happy to have you back!",
         });
         queryClient.refetchQueries(["me"]);
         navigate("/");
