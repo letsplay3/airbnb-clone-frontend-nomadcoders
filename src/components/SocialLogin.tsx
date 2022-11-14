@@ -4,7 +4,7 @@ import { Box, Button, Divider, HStack, Text, VStack } from "@chakra-ui/react";
 export default function SocialLogin() {
   let kakaoParams = {
     client_id: "0d6c91156a0543b07fb0b060b581f35e",
-    redirect_uri: "http://127.0.0.1:3000/social/kakao",
+    redirect_uri: "https://taiwantour.site/social/kakao",
     response_type: "code",
   };
   const githubParams = {
