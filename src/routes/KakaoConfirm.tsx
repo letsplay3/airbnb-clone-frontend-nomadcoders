@@ -16,7 +16,7 @@ export default function KakaoConfirm() {
       const status = await kakaoLogin(code);
       if (status === 200) {
         toast({
-          status: "성공 success",
+          status: "success",
           title: "Welcome!",
           position: "bottom-right",
           description: "환영합니다. Happy to have you back!",
